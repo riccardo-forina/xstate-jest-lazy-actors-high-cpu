@@ -10,6 +10,8 @@ It will run two tests.
 
 `npm run test:high-cpu-no-fake-timers` will run `HighCpuNoFakeTimers.test.tsx`, this test is like the previous one but without the time manipulation from Jest. Same outcome tho.
 
+`npm run test:minimal` will run `Minimal.test.tsx` and runs in the same issue as above. It seems to be related to a `sendParent` used in the `entry` action of the initial state of the spawned machine.
+
 Sample heap crash:
 
 ```

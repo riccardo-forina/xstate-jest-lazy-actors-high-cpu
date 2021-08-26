@@ -6,7 +6,8 @@
   "scripts": {
     "test:ok": "jest src/PaginatedResponse.machine.test.tsx",
     "test:high-cpu": "jest src/HighCpu.test.tsx",
-    "test:high-cpu-no-fake-timers": "jest src/HighCpuNoFakeTimers.test.tsx"
+    "test:high-cpu-no-fake-timers": "jest src/HighCpuNoFakeTimers.test.tsx",
+    "test:minimal": "jest src/Minimal.test.tsx"
   },
   "author": "",
   "license": "ISC",
